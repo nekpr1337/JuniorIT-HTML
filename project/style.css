@@ -134,3 +134,33 @@ body {
 .section-body li {
   margin-bottom: 4px;
 }
+
+.top-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 52px;      
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgba(10, 73, 196, 0.8),
+    rgba(74, 160, 255, 0.8)
+  );
+  box-shadow: 0 0 18px rgba(10, 73, 196, 0.9);
+  color: var(--text);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  z-index: 3;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.center-container {
+  top: 64px;
+}
