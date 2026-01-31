@@ -164,27 +164,3 @@ body {
 .center-container {
   top: 64px;
 }
-
-.footer-bar {
-  position: fixed;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-  min-width: 260px;
-  max-width: 420px;
-  padding: 8px 18px;
-  background: linear-gradient(
-    90deg,
-    rgba(10, 73, 196, 0.9),
-    rgba(74, 160, 255, 0.9)
-  );
-  box-shadow: 0 0 16px rgba(10, 73, 196, 0.9);
-  color: var(--text);
-  font-size: 0.9rem;
-  font-weight: 500;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  text-align: center;
-  border-radius: 16px;
-  z-index: 3;
-}
